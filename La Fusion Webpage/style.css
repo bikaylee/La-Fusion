@@ -1,0 +1,176 @@
+
+body{
+	background-color: #fcfcfc;
+}
+
+.menuBody{
+	background-image:url("wood.jpg");
+}
+
+.navigation{
+	background-color: black;
+	padding: 20px 0 20px 0;
+	border-style:line; 
+	border-color:black; 
+	list-style: none;
+	text-align:center;
+	margin:0 auto;
+	font-size:18px;
+
+}
+
+.navigation > li{
+	display: inline-block;
+	padding: 0 10%;
+}
+
+.navigation > li > a{
+	text-decoration: none;
+	color: white;
+}
+
+.navigation > li > a:hover{
+	color: tan;
+	border-top: 3px solid; 
+	padding-top: 20px !important;
+}
+
+h2 {
+	padding: 20px;
+}
+
+h5{
+	font-size:15px;
+}
+
+input {
+  	border-radius: 3px;
+  	border: 1px solid #ccc;
+  	width:230px;
+}
+
+#email{
+	width:300px;
+}
+
+button {
+  background: green;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  box-shadow: 0px 1px rgba(0, 0, 0, 0.8);
+  transition: background 0.2s;
+}
+button:hover {
+  background: #095209;
+}
+
+#centerTitle{
+	position: absolute;
+    top: 30%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size:65px;
+    line-height: 65px;
+    color: black;
+}
+#homeImageContainer {
+	position: relative;
+}
+#homeImage{
+	width:100%;
+	height:auto;
+	top:0;
+	left:0;
+	opacity: 0.5;
+    filter: alpha(opacity=50);
+    position:relative;
+}
+
+#menuBackground{
+	border-radius:40px; 
+	padding:20px 50px 20px 50px;
+	box-shadow: 10px 10px 30px black;
+	background-color: ivory;
+}
+
+#address{
+	line-height:7px;
+}
+
+#addressFont{
+	font-size:15px;
+	line-height:5px;
+	color:#85878c;
+}
+
+.bigBackground{
+	padding:100px;
+}
+
+.commentInput{
+	padding: 20px 120px 100px 120px;
+}
+
+#hour{
+	font-size:18px;
+	color:ivory;
+}
+
+.icon:hover{
+	opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+.locationTitle{
+	color: white;
+}
+
+.locationTitle:hover{
+	text-decoration: none;
+	color: tan;
+}
+
+#comment{
+	width:230px;
+	height:80px;
+	max-width:300px;
+	max-height:400px;
+}
+
+#price{
+	text-align:right;
+}
+
+#subIng{
+	padding:0px 20px 0px 20px;
+	font-size:13px;
+}
+
+.menu{
+	padding:10px;
+	text-align: center;
+	font-size: 50px;
+}
+
+.ui-datepicker{
+	background-color: #fff;
+	border: 1px solid #66AFE9;
+	border-radius: 4px;
+	box-shadow: 0 0 8px rgba(102,175,233,.6);
+	display: none;
+	margin-top: 4px;
+	padding: 10px;
+	width: 200px;
+	line-height:20px;
+}
+
+.footer{
+	color:white;
+	background-color:black;
+	padding: 20px;
+	border-color:black; 
+	margin:0 auto;
+}

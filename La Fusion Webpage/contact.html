@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>La Fusion</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon" type ="image/png" href="forklogo.png" />
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  	<link rel="stylesheet" href="/resources/demos/style.css">
+  	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/timepicker/1.3.5/jquery.timepicker.min.css">
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/timepicker/1.3.5/jquery.timepicker.min.js"></script>
+
+  	<script>
+		$( function() {
+    		$( "#datepicker" ).datepicker({
+    			beforeShowDay: function(date) {
+				var day = date.getDay();
+				return [day != 0,''];
+				}
+    		});
+    		$("input.timepicker").timepicker({
+    			minTime: '5:00pm',
+    			maxTime: '9:00pm'
+    		});
+  		} );
+	</script>
+</head>
+
+<body>
+
+	<ul class="navigation">
+		<li><a href="La Fusion Project.html">Home</a></li>
+		<li><a href="menu.html">Menu</a></li>
+		<li><a href="contact.html">Contact</a></li>
+	</ul>
+<br/>
+<br/>
+
+<div class="container">
+	<div class = "row">
+		<div class ="col-sm-6 commentInput">
+			<div class="row">
+			<h4>Reservation</h4>
+			</div>
+			<br/>
+			<br/>
+			<div class="row">
+				<p>First Name</p>
+			</div>
+			<div class="row">
+				<input type="text"/>
+			</div>
+			<br/>
+			<div class="row">
+				<p>Last Name</p>
+			</div>
+			<div class="row">
+				<input type="text"/>
+			</div>
+		<br/>
+		<div class="row">
+				<p>Email</p>
+			</div>
+		<div class="row">
+			<input type="text" id="email"/>
+		</div>
+		<br/>
+		<div class="row">
+			<p>Date</p>
+		</div>
+		<div class="row">
+			<input id="datepicker" type="text"/>
+		</div>
+		<br/>
+		<div class="row">
+			<p>Time</p>
+		</div>
+		<div class="row">
+
+			<input class="timepicker" type="text"/>
+		</div>
+		<br/>
+		<div class="row">
+				<p>Number of Seats</p>
+			</div>
+		<div class="row">
+			<input type="number"/>
+		</div>
+		<br/>
+		<div class="row">
+				<p>Comment</p>
+			</div>
+		<div class="row">
+			<textarea type="text" id="comment"></textarea>
+		</div>
+		<br/>
+		<div class="row">
+			<button>Submit</button>
+		</div>
+		</div>
+			<div class ="col-sm-6 commentInput">
+				
+				<h4>La Fusion</h4>
+				<br/>
+				<br/>
+				<p>475 Pine St. </p>
+				<p>San Francisco, CA 94104</p>
+				<p>Office: 415-781-0894</p>
+				<p>Fax    : 415-956-0887</p>
+				<p>Email: lafusionsf1@gmail.com</p><br/><br/>
+				<iframe width="450" height="300" frameborder="0" style="border:0" src="http://www.editmysite.com/ajax/apps/generateMap.php?map=google&elementid=815899149243385718&ineditor=0&control=3&width=350px&height=250px&overviewmap=0&scalecontrol=0&typecontrol=0&zoom=15&long=-122.4037940&lat=37.7916345&domain=www&point=1&align=1&reseller=true" allowfullscreen></iframe>
+				<br/>
+				<p><u><i>**** There is a Four Credit Card Maximum Per Group ****</i></u></p>
+				<br/>
+			</div>
+	</div>
+</div>
+
+
+<footer class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-5">
+				<p id="hour">HOURS</p>
+				<div class="row">
+				<div class="col-sm-4">
+				<p>Mon-Fri</p>
+				</div>
+				<div class="col-sm-8">
+				<p>11:30am-3:00pm</p>
+				<p>5:00pm-10:00pm</p>
+				</div>
+				</div>
+				<div class="row">
+				<div class="col-sm-4">
+				<p>Sat</p>
+				</div>
+				<div class="col-sm-8">
+				<p>5:00pm-10:00pm</p>
+				</div>
+				</div>
+				<div class="row">
+				<div class="col-sm-4">
+				<p>Sun</p>
+				</div>
+				<div class="col-sm-8">
+				<p>Closed</p>
+				</div>
+				</div>
+			</div>
+			<div class="col-sm-3">
+			</div>
+
+			<div class="col-sm-4">
+					<p id="hour">LOCATION</p>
+					<div class="row">
+						<div class="col-sm-2">
+							<p><a href="https://www.google.com/maps/place/La+Fusion/@37.7920344,-122.4051422,17.65z/data=!4m5!3m4!1s0x8085808a2f00c3e9:0x779761439e2c222a!8m2!3d37.7916377!4d-122.4037128"><img class="icon" src="location.png" width="30"/></a></p>
+						</div>
+						<div class="col-sm-10">
+						 	<p id="address"><a class="locationTitle" href="https://www.google.com/maps/place/La+Fusion/@37.7920344,-122.4051422,17.65z/data=!4m5!3m4!1s0x8085808a2f00c3e9:0x779761439e2c222a!8m2!3d37.7916377!4d-122.4037128">475 Pine St.</a></p>
+						 	<div id="addressFont">
+							<p>San Francisco, CA 94104</p>
+							<p>(415) 781-0894</p>
+							</div>
+						</div>
+					</div>
+					<br/>
+					<div class="row">
+						<div class="col-sm-2">
+							<p><a href="https://www.yelp.com/biz/la-fusi%C3%B3n-san-francisco-2"><img class="icon" src="yelp.png" width="30"/></a></p>
+						</div>
+						<div class="col-sm-10">
+						 	<p><a class="locationTitle" href="https://www.yelp.com/biz/la-fusi%C3%B3n-san-francisco-2">Yelp</a></p>
+						</div>
+					</div>
+			</div>
+		</div>
+	</div>
+</footer>
+</body>
+
+</html>
