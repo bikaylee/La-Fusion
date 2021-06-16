@@ -5,5 +5,5 @@ Webpage &middot; _San Francisco Code Ramp_ <br>
 
 Very first webpage project after taking APCS in junior year of high schoool. At San Francisco Success Center, this 8-week course about web development fundamentals was taught by an experienced software engineer. This project is a redesigned webpage for a local restaurant in San Francisco.
 
-Website: [https://github.com/bikaylee/La-Fusion](https://github.com/bikaylee/La-Fusion) <br>
+Website: [https://bikaylee.github.io/La-Fusion/](https://bikaylee.github.io/La-Fusion/) <br>
 Source Code: [https://github.com/bikaylee/La-Fusion](https://github.com/bikaylee/La-Fusion)
