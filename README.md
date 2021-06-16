@@ -1,5 +1,9 @@
-# Webpage-Project-La-Fusion
+# La-Fusion
 
-Code Ramp Project - Spring 2017
+Webpage &middot; _San Francisco Code Ramp_ <br>
+<small>Feb 2017 - Apr 2017</small>
 
-Webpage: [https://bikaylee.github.io/La-Fusion/](https://bikaylee.github.io/La-Fusion/)
+Very first webpage project after taking APCS in junior year of high schoool. At San Francisco Success Center, this 8-week course about web development fundamentals was taught by an experienced software engineer. This project is a redesigned webpage for a local restaurant in San Francisco.
+
+Website: [https://github.com/bikaylee/La-Fusion](https://github.com/bikaylee/La-Fusion) <br>
+Source Code: [https://github.com/bikaylee/La-Fusion](https://github.com/bikaylee/La-Fusion)
